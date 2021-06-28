@@ -2,13 +2,13 @@ from flask import Flask
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
-from similarity.config import ProductionConfig, TestingConfig
+from similarity.config import DevelopmentConfig, ProductionConfig
 
 db = SQLAlchemy()
 
 
 # App Factory.
-def create_app(config_class=TestingConfig):
+def create_app(config_class=DevelopmentConfig):
     app = Flask(__name__)
 
     if app.config['ENV'] == 'production':
