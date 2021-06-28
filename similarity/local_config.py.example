@@ -1,11 +1,11 @@
 # PostgreSQL DB settings.
 PSQL_LOCAL_SETTINGS = {
     'development': {
-        'user': 'similarity',
-        'pass': 'similarity',
+        'user': 'postgres',
+        'pass': 'postgres',
         'host': 'localhost',
         'port': 5432,
-        'db': 'similarity',
+        'db': 'postgres',
     },
     'testing': {
         'user': 'postgres',
