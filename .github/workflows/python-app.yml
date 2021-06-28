@@ -68,7 +68,6 @@ jobs:
     - name: Copy local configuration file
       run: |
         cp ./similarity/local_config.py.example ./similarity/local_config.py
-        cp ./_gh_workflows_ci.env ./.env
 
     - name: DB Initiate
       run: |
