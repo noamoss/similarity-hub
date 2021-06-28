@@ -24,7 +24,7 @@
 ### local env setup
 - Create a new postgresql DB.
 - `pipenv install` (in the repo's ROOT folder)
-- `cp similarity/local_config.py.example local_config.py` (then set the correct configuration of your local machine).
+- `cp ./similarity/local_config.py.example ./similarity/local_config.py` (then set the correct configuration of your local machine).
 - `cp _example.env .env`
 - `bash ./initiate_local_db.sh`
 
