@@ -71,8 +71,7 @@ jobs:
 
     - name: DB Initiate
       run: |
-        pipenv run flask db migrate
-        pipenv run flask create-db
+        ./initiate_local_db.sh
 
     - name: Test with pytest
       run: |
