@@ -13,9 +13,9 @@ def get_env_db_url(selected_environment):
 
 
 # DB URLS for each Environment.
-DEV_DB_URL = get_env_db_url("development")
-TESTING_DB_URL = get_env_db_url("testing")
-PROD_DB_URL = get_env_db_url("production")
+DEV_DB_URL = get_env_db_url('development')
+TESTING_DB_URL = get_env_db_url('testing')
+PROD_DB_URL = get_env_db_url('production')
 
 
 class Config(object):
