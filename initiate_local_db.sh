@@ -16,3 +16,5 @@ psql -U postgres -c "CREATE DATABASE ${PROJECT_NAME} OWNER ${PROJECT_NAME};"
 
 pipenv run flask db migrate
 pipenv run flask create-db
+# Run db upgrade to apply the migrations.
+pipenv run flask db upgrade
