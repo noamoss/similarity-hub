@@ -1,6 +1,6 @@
 from flask_fixtures import FixturesMixin
 from similarity import create_app, db, TestingConfig
-from similarity.models import Item, Entity
+from similarity.models import Entity
 from flask_testing import TestCase
 
 
