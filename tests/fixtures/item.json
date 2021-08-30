@@ -1,0 +1,13 @@
+[
+    {   "table": "similarity.models.Item",
+        "records": [{
+            "id" : 1,
+            "description" : "check_item1",
+            "source_url" : "www.check.com/1",
+            "category_id" : 0,
+            "rank" : 2,
+            "rank_date": "2002-04-02"
+        }
+        ]
+    }
+]
