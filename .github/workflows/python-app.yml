@@ -71,8 +71,7 @@ jobs:
 
     - name: DB Initiate
       run: |
-        pipenv run flask --version
-        pipenv run flask db init
+        ./initiate_local_db.sh
 
     - name: Test with pytest
       run: |
