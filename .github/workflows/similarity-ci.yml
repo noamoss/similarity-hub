@@ -49,7 +49,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pipenv run python manage.py test
+          pipenv run python manage.py test -v=3
         env:
           DB_HOST: localhost
           DB_NAME: postgres
