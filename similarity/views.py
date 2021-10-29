@@ -1,8 +1,3 @@
-from flask import Blueprint
+from django.shortcuts import render
 
-simple_page = Blueprint('simple_page', __name__)
-
-
-@simple_page.route('/')
-def hello_world():
-    return 'Hello, World!?'
+# Create your views here.
